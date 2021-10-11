@@ -1,0 +1,33 @@
+.showSelectedFoodItems-enter {
+  opacity: 0;
+  transform: scaleY(0.5) translateX(-50%);
+}
+.showSelectedFoodItems-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 900ms;
+}
+.showSelectedFoodItems-exit {
+  opacity: 1;
+}
+.showSelectedFoodItems-exit-active {
+  opacity: 0;
+  transform: scaleY(0.5) translateX(50%);
+  transition: all 900ms;
+}
+.showSelectedFoodItems-exit-done {
+  position: absolute;
+}
+
+.test {
+  transition: all 400ms;
+}
+
+.smooth-enter {
+  opacity: 0;
+}
+.smooth-enter-active {
+  opacity: 1;
+
+  transition: all 300ms;
+}

@@ -1,0 +1,54 @@
+.search input {
+  font-family: "Serif";
+}
+
+.searchInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.labelCheckBox {
+  display: inline;
+}
+.labelInEx {
+  position: absolute;
+  /* transform: translateY(2px); */
+  bottom: 0;
+}
+
+.resultList {
+  background-color: transparent;
+
+  margin-left: 0.5rem;
+
+  /* display: inline; */
+  display: flex;
+  flex-direction: row;
+  height: 20rem;
+  overflow: auto;
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
+
+.resultListContainer {
+  position: absolute;
+
+  top: 10%;
+  width: 100%;
+}
+
+.searchFoodP {
+  transition: all 300ms ease-out;
+}
+
+.searchFoodPresent {
+  animation-name: searchFoodFadeIn;
+  animation-duration: 300ms;
+}
+.searchFoodGone {
+  transition: all 300ms ease-out;
+  opacity: 0;
+  transform: translateX(100%);
+}

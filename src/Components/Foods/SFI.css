@@ -1,0 +1,10 @@
+.smoothMove-enter {
+}
+.smoothMove-enter-active {
+  transform: translateY(-74px);
+  transition: all 1800ms;
+  position: relative;
+}
+
+.smoothMove-enter-done {
+}

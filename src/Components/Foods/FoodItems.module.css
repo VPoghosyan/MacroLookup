@@ -1,0 +1,16 @@
+hr {
+  color: "grey";
+  margin-top: 0;
+}
+
+.sp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.resList:hover {
+  cursor: pointer;
+  background-color: white;
+}
