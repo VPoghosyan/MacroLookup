@@ -1,0 +1,12 @@
+.miniCard {
+  padding: 1rem;
+  border-radius: 5%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+
+  background: linear-gradient(
+    184deg,
+    rgba(123, 236, 114, 1) 0%,
+    rgba(144, 215, 139, 1) 38%,
+    rgba(242, 251, 246, 1) 100%
+  );
+}
