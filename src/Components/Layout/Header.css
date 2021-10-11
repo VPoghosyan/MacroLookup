@@ -1,0 +1,19 @@
+.backgroundImage-enter {
+  opacity: 0;
+}
+.backgroundImage-enter-active {
+  opacity: 1;
+
+  transition: all 1500ms ease-in;
+}
+.backgroundImage-exit {
+  opacity: 1;
+}
+.backgroundImage-exit-active {
+  opacity: 0;
+
+  transition: all 1500ms ease-in;
+}
+.backgroundImage-exit-done {
+  opacity: 0;
+}
