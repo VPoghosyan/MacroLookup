@@ -1,0 +1,33 @@
+.slide-enter {
+  opacity: 0;
+  transform: translateY(-50%);
+}
+.slide-enter-active {
+  opacity: 1;
+  transform: translate(0);
+  transition: all 900ms linear 300ms;
+}
+.slide-exit {
+  opacity: 1;
+}
+.slide-exit-active {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: all 900ms;
+}
+
+.miniCardA {
+  padding: 1rem;
+  border-radius: 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 50%;
+  margin: 15px;
+  text-align: justify;
+
+  background: linear-gradient(
+    184deg,
+    rgba(123, 236, 114, 1) 0%,
+    rgba(144, 215, 139, 1) 38%,
+    rgba(242, 251, 246, 1) 100%
+  );
+}
